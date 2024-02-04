@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Mithun
 - 👀 I’m interested in Programming
-- 🌱 I’m currently learning Python 
+- 🌱 I’m currently learning DSA 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
