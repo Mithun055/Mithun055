@@ -16,7 +16,6 @@
 -  I’m *currently* **binge-watching** or *working* on my **laptop** 👨‍💻
 -  I love **sharing and expanding my knowledge** with the world.🌐
 -  Strongly **believe** that my **today's habits** would shape my **future** 😊
--  **Fun fact:** My *smartness* 💡 lies in my *laziness* 😴
 -  Have a look at my Repos💡 & do Leave a **STAR**⭐️ if you like my work👨‍💻.
 <br>
 
