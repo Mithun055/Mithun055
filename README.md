@@ -26,7 +26,8 @@
 
 ![Mithun's github stats](https://github-readme-stats.vercel.app/api?username=Mithun055&count_private=true&show_icons=true&theme=radical&include_all_commits=true)
 <br>
-<img src="https://github.com/SatYu26/SatYu26/blob/master/Assets/super-kid.gif" alt="Super Kid" height="200px"/>
+# Leetcode:
+[![Leetcode Stats](https://leetcard.jacoblin.cool/Mithun005?ext=contest)](https://leetcode.com/Mithun005)
 
 
 # Connect with me<img src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Handshake.gif" height="32px">
