@@ -42,6 +42,11 @@
   </a>
 
 
+<picture>
+  <source srcset="assets/toast-white.svg" media="(prefers-color-scheme: dark)">
+  <source srcset="assets/toast-black.svg" media="(prefers-color-scheme: light)">
+  <img src="assets/toast-white.svg" width="250" align="right" alt="Have a nice day!">
+</picture>
 <br><br>
 
 ![Total Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Mithun055)
