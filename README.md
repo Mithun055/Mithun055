@@ -23,8 +23,10 @@
 <br>
 
 
-![Mithun's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithun055&count_private=true&show_icons=true&theme=radical&include_all_commits=true)
+![Mithun's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithun055&show_icons=true&theme=radical)
+
 <br>
+
 # Leetcode:
 [![Leetcode Stats](https://leetcard.jacoblin.cool/Mithun005?ext=contest)](https://leetcode.com/Mithun005)
 
