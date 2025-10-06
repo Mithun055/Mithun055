@@ -6,7 +6,7 @@
 
 <p>
   <em>
-    I am a Second Year undergraduate from <b>Chennai Institute of Technology</b>, Chennai</a>. <br>
+    I am a Pre-Final Year undergraduate from <b>Chennai Institute of Technology</b>, Chennai</a>. <br>
    
   </em>  
 </p>
