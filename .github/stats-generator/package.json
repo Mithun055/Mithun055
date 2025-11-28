@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "node-fetch": "^3.4.1"
+    "node-fetch": "3.3.2"
   }
 }
