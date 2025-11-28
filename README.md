@@ -23,7 +23,7 @@
 <br>
 
 
-![Mithun's GitHub All-Time Stats](./assets/stats.svg)
+![Mithun's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithun055&show_icons=true&theme=radical)
 
 
 
