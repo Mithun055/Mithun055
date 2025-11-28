@@ -1,82 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="920" height="170" viewBox="0 0 920 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mithun S's GitHub stats">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#ff7ab6"/>
-      <stop offset="100%" stop-color="#7a5cff"/>
-    </linearGradient>
-    <style>
-      .bg{fill:#0b1220}
-      .card{fill:#0f1724; rx:12px;}
-      .title{font:700 20px 'Segoe UI', Roboto, Arial; fill:#ff79c6;}
-      .name{font:600 16px 'Segoe UI', Roboto, Arial; fill:#cbd5e1;}
-      .meta{font:500 13px 'Segoe UI', Roboto, Arial; fill:#94a3b8;}
-      .big{font:700 26px 'Segoe UI', Roboto, Arial; fill:#8be9fd;}
-      .small{font:500 12px 'Segoe UI', Roboto, Arial; fill:#cbd5e1;}
-      .label{font:600 11px 'Segoe UI', Roboto, Arial; fill:#94a3b8;}
-      .chip{font:600 12px 'Segoe UI', Roboto, Arial; fill:#0b1220;}
-      .muted{fill:#6b7280;}
-      .avatar-mask{rx:8;}
-    </style>
-  </defs>
+<svg width="880" height="180" viewBox="0 0 880 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mithun S's GitHub overall stats">
+  <style>
+    .card{fill:#16151a; stroke:#2b2f3a; stroke-width:1.5; rx:10}
+    .title{font:700 18px 'Segoe UI', Roboto, Arial; fill:#ff69b4}
+    .label{font:600 13px 'Segoe UI', Roboto, Arial; fill:#bfeefc}
+    .val{font:700 18px 'Segoe UI', Roboto, Arial; fill:#9af3ff}
+    .small{font:500 11px 'Segoe UI', Roboto, Arial; fill:#cbd5e1}
+    .icon{fill:#ffd36b}
+    .chip{font:700 13px 'Segoe UI', Roboto, Arial; fill:#c3f4ff}
+  </style>
 
-  <rect width="100%" height="100%" fill="#071327" />
-  <g transform="translate(14,14)">
-    <rect width="892" height="142" rx="12" fill="#0b1220"/>
-    <g transform="translate(18,16)">
-      <!-- left: avatar + basic name -->
+  <rect x="8" y="8" width="864" height="164" rx="10" fill="#16151a" stroke="#2b2f3a" stroke-width="1.5"/>
+  <g transform="translate(24,20)">
+    <text x="0" y="0" class="title">Mithun S' GitHub Stats</text>
+
+    <g transform="translate(0,22)">
       <g transform="translate(0,0)">
-        <rect width="120" height="120" rx="12" fill="url(#g)" opacity="0.08"></rect>
-        <image href="https://avatars.githubusercontent.com/u/139942878?v=4" x="6" y="6" width="108" height="108" clip-path="url(#a)"/>
+        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.787 1.402 8.168L12 18.896l-7.336 3.869 1.402-8.168L.132 9.21l8.2-1.192z"/></svg>
+        <text x="30" y="13" class="label">Total Stars Earned:</text>
+        <text x="440" y="13" text-anchor="end" class="val">0</text>
       </g>
 
-      <!-- text to the right of avatar -->
-      <g transform="translate(140,8)">
-        <text x="0" y="20" class="title">Mithun S</text>
-        <text x="0" y="44" class="name">@Mithun055</text>
-        <g transform="translate(0,60)">
-          <!-- total contributions big -->
-          <text x="0" y="28" class="big">1,031</text>
-          <text x="0" y="48" class="small">Total contributions (all time)</text>
-        </g>
+      <g transform="translate(0,28)">
+        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 2v10l6 3"/></svg>
+        <text x="30" y="13" class="label">Total Commits:</text>
+        <text x="440" y="13" text-anchor="end" class="val">1,007</text>
+      </g>
+
+      <g transform="translate(0,56)">
+        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M6 2a2 2 0 100 4 2 2 0 000-4z M6 6v6"/></svg>
+        <text x="30" y="13" class="label">Total PRs:</text>
+        <text x="440" y="13" text-anchor="end" class="val">3</text>
+      </g>
+
+      <g transform="translate(0,84)">
+        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 2a10 10 0 110 20 10 10 0 010-20z"/></svg>
+        <text x="30" y="13" class="label">Total Issues:</text>
+        <text x="440" y="13" text-anchor="end" class="val">0</text>
+      </g>
+
+      <g transform="translate(0,112)">
+        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M3 3h14v10H3z"/></svg>
+        <text x="30" y="13" class="label">Contributed to (all time):</text>
+        <text x="440" y="13" text-anchor="end" class="val">12</text>
       </g>
     </g>
 
-    <!-- bottom stats row -->
-    <g transform="translate(18,110)">
-      <!-- card-like chips -->
-      <g transform="translate(0,0)">
-        <rect x="0" y="0" width="864" height="40" rx="8" fill="#07182a" />
-        <g transform="translate(16,8)">
-          <text x="0" y="14" class="label">Commits</text>
-          <text x="0" y="34" class="chip">1,006</text>
-        </g>
+    <!-- right circular ring -->
+    <g transform="translate(560,0)">
+      <defs>
+        <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#ff7ab6"/>
+          <stop offset="100%" stop-color="#7a5cff"/>
+        </linearGradient>
+      </defs>
 
-        <g transform="translate(160,8)">
-          <text x="0" y="14" class="label">Pull Requests</text>
-          <text x="0" y="34" class="chip">3</text>
-        </g>
-
-        <g transform="translate(320,8)">
-          <text x="0" y="14" class="label">PR Reviews</text>
-          <text x="0" y="34" class="chip">0</text>
-        </g>
-
-        <g transform="translate(480,8)">
-          <text x="0" y="14" class="label">Issues</text>
-          <text x="0" y="34" class="chip">0</text>
-        </g>
-
-        <g transform="translate(640,8)">
-          <text x="0" y="14" class="label">Private contribs</text>
-          <text x="0" y="34" class="chip">0</text>
-        </g>
-
-        <g transform="translate(724,8)">
-          <rect x="-8" y="-6" width="140" height="32" rx="6" fill="url(#g)"/>
-          <text x="0" y="14" class="chip" style="fill:#fff">11/28/2025</text>
-        </g>
+      <circle cx="48" cy="70" r="48" stroke="#2d1b2e" stroke-width="10" fill="none" />
+      <g transform="rotate(-90 48 70)">
+        <circle cx="48" cy="70" r="48" stroke="#45233a" stroke-width="10" fill="none" />
+        <circle cx="48" cy="70" r="48" stroke="url(#g1)" stroke-width="10" fill="none"
+          stroke-linecap="round"
+          stroke-dasharray="156.82830526720247 301.59289474462014" />
       </g>
+
+      <text x="48" y="70" text-anchor="middle" dominant-baseline="central" class="chip" font-size="32" fill="#cdeff5">C</text>
+      <text x="48" y="112" text-anchor="middle" class="small" fill="#9fd8e8">52% of goal</text>
     </g>
   </g>
 </svg>
