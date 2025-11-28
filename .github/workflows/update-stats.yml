@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./.github/stats-generator
-        run: npm ci
+        run: npm install --no-audit --no-fund
 
       - name: Run stats generator
         env:
