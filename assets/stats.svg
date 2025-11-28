@@ -1,70 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="880" height="180" viewBox="0 0 880 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mithun S's GitHub overall stats">
-  <style>
-    .card{fill:#16151a; stroke:#2b2f3a; stroke-width:1.5; rx:10}
-    .title{font:700 18px 'Segoe UI', Roboto, Arial; fill:#ff69b4}
-    .label{font:600 13px 'Segoe UI', Roboto, Arial; fill:#bfeefc}
-    .val{font:700 18px 'Segoe UI', Roboto, Arial; fill:#9af3ff}
-    .small{font:500 11px 'Segoe UI', Roboto, Arial; fill:#cbd5e1}
-    .icon{fill:#ffd36b}
-    .chip{font:700 13px 'Segoe UI', Roboto, Arial; fill:#c3f4ff}
-  </style>
+<svg width="980" height="364" viewBox="0 0 980 364" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mithun S stats">
+  <rect width="100%" height="100%" fill="#0b1220" />
+  
+<g>
+  <rect x="20" y="20" width="940" height="160" rx="10" fill="#0f1113" stroke="#232428" stroke-width="1.5"/>
+  <text x="40" y="48" font-family="Segoe UI, Roboto" font-weight="700" font-size="20" fill="#ff9a3c">🔥 My Stats :</text>
 
-  <rect x="8" y="8" width="864" height="164" rx="10" fill="#16151a" stroke="#2b2f3a" stroke-width="1.5"/>
-  <g transform="translate(24,20)">
-    <text x="0" y="0" class="title">Mithun S' GitHub Stats</text>
-
-    <g transform="translate(0,22)">
-      <g transform="translate(0,0)">
-        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.787 1.402 8.168L12 18.896l-7.336 3.869 1.402-8.168L.132 9.21l8.2-1.192z"/></svg>
-        <text x="30" y="13" class="label">Total Stars Earned:</text>
-        <text x="440" y="13" text-anchor="end" class="val">0</text>
-      </g>
-
-      <g transform="translate(0,28)">
-        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 2v10l6 3"/></svg>
-        <text x="30" y="13" class="label">Total Commits:</text>
-        <text x="440" y="13" text-anchor="end" class="val">1,007</text>
-      </g>
-
-      <g transform="translate(0,56)">
-        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M6 2a2 2 0 100 4 2 2 0 000-4z M6 6v6"/></svg>
-        <text x="30" y="13" class="label">Total PRs:</text>
-        <text x="440" y="13" text-anchor="end" class="val">3</text>
-      </g>
-
-      <g transform="translate(0,84)">
-        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M12 2a10 10 0 110 20 10 10 0 010-20z"/></svg>
-        <text x="30" y="13" class="label">Total Issues:</text>
-        <text x="440" y="13" text-anchor="end" class="val">0</text>
-      </g>
-
-      <g transform="translate(0,112)">
-        <svg x="0" y="0" width="18" height="18" viewBox="0 0 24 24"><path class="icon" d="M3 3h14v10H3z"/></svg>
-        <text x="30" y="13" class="label">Contributed to (all time):</text>
-        <text x="440" y="13" text-anchor="end" class="val">12</text>
-      </g>
-    </g>
-
-    <!-- right circular ring -->
-    <g transform="translate(560,0)">
-      <defs>
-        <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-          <stop offset="0%" stop-color="#ff7ab6"/>
-          <stop offset="100%" stop-color="#7a5cff"/>
-        </linearGradient>
-      </defs>
-
-      <circle cx="48" cy="70" r="48" stroke="#2d1b2e" stroke-width="10" fill="none" />
-      <g transform="rotate(-90 48 70)">
-        <circle cx="48" cy="70" r="48" stroke="#45233a" stroke-width="10" fill="none" />
-        <circle cx="48" cy="70" r="48" stroke="url(#g1)" stroke-width="10" fill="none"
-          stroke-linecap="round"
-          stroke-dasharray="156.82830526720247 301.59289474462014" />
-      </g>
-
-      <text x="48" y="70" text-anchor="middle" dominant-baseline="central" class="chip" font-size="32" fill="#cdeff5">C</text>
-      <text x="48" y="112" text-anchor="middle" class="small" fill="#9fd8e8">52% of goal</text>
-    </g>
+  <!-- left: total contributions -->
+  <g transform="translate(40, 64)" font-family="Segoe UI, Roboto">
+    <text x="0" y="0" font-size="34" font-weight="800" fill="#ffffff">1,034</text>
+    <text x="0" y="28" font-size="13" fill="#9aa6b2">Total Contributions</text>
+    <text x="0" y="48" font-size="12" fill="#9aa6b2">Jan 1, 2008 - Present</text>
   </g>
+
+  <!-- center: current streak ring -->
+  <g transform="translate(552, 48)">
+    <!-- background ring -->
+    <circle cx="48" cy="48" r="48" stroke="#2e1d20" stroke-width="12" fill="none"/>
+    <!-- base ring -->
+    <circle cx="48" cy="48" r="48" stroke="#3a2832" stroke-width="12" fill="none"/>
+    <!-- progress -->
+    <g transform="rotate(-90 48 48)">
+      <circle cx="48" cy="48" r="48" stroke="#ff9a3c" stroke-width="12" fill="none" stroke-linecap="round"
+        stroke-dasharray="0 301.59289474462014"/>
+    </g>
+    <text x="48" y="48" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="800" fill="#fff">0</text>
+    <text x="48" y="84" text-anchor="middle" font-size="12" fill="#9aa6b2">Current Streak</text>
+  </g>
+
+  <!-- right: longest streak -->
+  <g transform="translate(688, 76)" font-family="Segoe UI, Roboto">
+    <text x="0" y="0" font-size="34" font-weight="800" fill="#ffffff">9</text>
+    <text x="0" y="30" font-size="13" fill="#9aa6b2">Longest Streak</text>
+  </g>
+</g>
+
+  
+<g>
+  <rect x="20" y="196" width="940" height="140" rx="10" fill="#0f1113" stroke="#232428" stroke-width="1.5"/>
+  <text x="38" y="224" font-family="Segoe UI, Roboto" font-weight="700" font-size="18" fill="#ff9a3c">Most Used Languages</text>
+
+  <!-- language bar -->
+  <rect x="48" y="228" width="527" height="18" rx="6" fill="#e34c26"/><rect x="575" y="228" width="220" height="18" rx="6" fill="#3572A5"/><rect x="795" y="228" width="60" height="18" rx="6" fill="#f1e05a"/><rect x="855" y="228" width="44" height="18" rx="6" fill="#7a5cff"/><rect x="899" y="228" width="29" height="18" rx="6" fill="#f34b7d"/><rect x="928" y="228" width="24" height="18" rx="6" fill="#563d7c"/>
+
+  <!-- labels -->
+  <g transform="translate(48, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#e34c26"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">HTML 58.3%</text></g><g transform="translate(188, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#3572A5"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">Python 24.3%</text></g><g transform="translate(328, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#f1e05a"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">JavaScript 6.7%</text></g><g transform="translate(468, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#7a5cff"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">Jupyter Notebook 4.8%</text></g><g transform="translate(608, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#f34b7d"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">C++ 3.2%</text></g><g transform="translate(748, 256)"><rect x="0" y="-8" width="10" height="10" rx="5" fill="#563d7c"></rect><text x="14" y="0" font-family="Segoe UI, Roboto" font-size="12" fill="#9aa6b2">CSS 2.6%</text></g>
+</g>
+
 </svg>
