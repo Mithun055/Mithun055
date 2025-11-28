@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200">
+  <style>
+    .title{font:700 22px 'Segoe UI'; fill:#ff6bcb;}
+    .big{font:700 28px 'Segoe UI'; fill:#8be9fd;}
+    .meta{font:500 14px 'Segoe UI'; fill:#cbd5e1;}
+    .small{font:400 12px 'Segoe UI'; fill:#94a3b8;}
+  </style>
+  <rect width="100%" height="100%" fill="#071327"/>
+  <text x="24" y="40" class="title">Mithun055's GitHub – All-time</text>
+  <text x="24" y="80" class="big">1030 total contributions</text>
+  <text x="24" y="110" class="meta">Commits: 1005 • PRs: 3 • Reviews: 0 • Issues: 0</text>
+  <text x="24" y="135" class="small">Private contributions: 0</text>
+  <text x="24" y="160" class="small">Updated: 28/11/2025, 08:46:41</text>
+</svg>
