@@ -8,7 +8,7 @@
 
   <!-- left: total contributions -->
   <g transform="translate(40, 64)" font-family="Segoe UI, Roboto">
-    <text x="0" y="0" font-size="34" font-weight="800" fill="#ffffff">1,072</text>
+    <text x="0" y="0" font-size="34" font-weight="800" fill="#ffffff">1,073</text>
     <text x="0" y="28" font-size="13" fill="#9aa6b2">Total Contributions</text>
     <text x="0" y="48" font-size="12" fill="#9aa6b2">Jan 1, 2008 - Present</text>
   </g>
